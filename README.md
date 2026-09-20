@@ -1,25 +1,34 @@
 # ATTENDENCEBOT
 
-This repository currently contains the **`face_recognition` Python library source and supporting files** that were used as a foundation/reference for face-recognition experiments.
+![Python](https://img.shields.io/badge/Python-face%20recognition-blue)
+![Computer Vision](https://img.shields.io/badge/Domain-Computer%20Vision-purple)
+![Status](https://img.shields.io/badge/Portfolio%20status-reference%20snapshot-lightgrey)
 
-## Portfolio status
+This repository currently contains the **`face_recognition` Python library source and supporting files** used as a foundation/reference for face-recognition experiments.
 
-The complete custom **Face Recognition Attendance System** described in my portfolio/resume is **not fully represented by the current branch of this repository**. I am keeping this note explicit so the repository does not overstate what the checked-in code demonstrates.
+## Portfolio accuracy note
 
-The intended attendance-system work includes:
+The complete custom **Face Recognition Attendance System** described in my portfolio/resume is **not fully represented by this branch**. This repository is intentionally labeled clearly so the checked-in code is not presented as original application code that is not currently available here.
 
-- real-time face detection and recognition
-- face encoding / matching
-- attendance logging with timestamps
-- duplicate-entry prevention
-- OpenCV-based camera processing
+## Intended attendance-system capabilities
 
-## Current repository contents
+- Real-time face detection and recognition
+- Face encoding and matching
+- OpenCV camera processing
+- Timestamped attendance logging
+- Duplicate-entry prevention
+- Attendance workflow automation
 
-The current branch includes the upstream-style `face_recognition` package structure, documentation, Docker files, examples, tests, and packaging metadata.
+## What this branch contains
 
-For the original library documentation included with this source snapshot, see `README.rst` and the files under `docs/`.
+The current branch includes an upstream-style `face_recognition` package snapshot with documentation, Docker files, examples, tests, and packaging metadata.
 
-## Next step
+For library-level documentation included in the snapshot, see `README.rst` and `docs/`.
 
-The portfolio version of this repository should be replaced or supplemented with the actual attendance-application source code, screenshots, setup steps, and sample output when those files are available.
+## Next portfolio milestone
+
+Replace or supplement this reference snapshot with the actual attendance application source, screenshots, setup instructions, sample output, and automated tests when those files are available.
+
+## Why the distinction matters
+
+A strong engineering portfolio should make a clear distinction between **dependencies/reference code** and **original implementation work**. This README keeps that boundary explicit.
